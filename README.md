@@ -1,13 +1,12 @@
 # Landing Page Project
 
-## Table of Contents
+## Introduction
 
-* [Instructions](#instructions)
+This project is part of Udacity fron-end-web-development nano degree, it is meant to train for various kind of DOM manipulation
 
-## Instructions
+## The purpose
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+- The purpose here is to dynamically add a navigation bar using JS.
+- Highlight the selected navigation bar.
+- Highlight the current acitve section by adding dynamic class.
+- Scroll to section using JS and make the scroll transition easey.
