@@ -124,12 +124,18 @@ document.addEventListener("scroll", () => {
   });
 
   //Adding style to correct li
-
   let hilightedLi =
     activeSection.length > 0 &&
     document.querySelector(`[heilight="${activeSection[0].id}"]`);
 
   hilightedLi && hilightedLi.classList.add("li-active");
+
+  //Hiding and re-showing nav
+  let nav = document.querySelector("nav");
+  nav.classList.add("hideme");
+  setTimeout(() => {
+    nav.classList.remove("hideme");
+  }, 500);
 });
 
 // Adding section dynamic
