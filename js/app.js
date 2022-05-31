@@ -52,7 +52,9 @@ const openMenu = () => {
 // Creating event click listener function once for performance
 const listItemClickHandler = (e) => {
   e.preventDefault();
-  document.querySelector(`[data-nav="${e.target.innerHTML}"]`).scrollIntoView();
+  document
+    .querySelector(`[data-nav="${e.target.innerHTML}"]`)
+    .scrollIntoView({ behavior: "smooth" });
 };
 
 // Converting nodelist to array using the spreading technique and loop to create nav li
